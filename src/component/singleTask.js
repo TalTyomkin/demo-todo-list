@@ -5,7 +5,7 @@ class SingleTask extends Component {
     render() { 
         const {task} = this.props;
         return ( 
-            <li class="list-group-item">
+            <li className="list-group-item">
                 {task.id} my tasks is: {task.title}
                 <button className='btn btn-danger offset-md-2'>Delete</button>
             </li>
